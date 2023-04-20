@@ -13,6 +13,7 @@
 		3FD27BB629EF300E00852C0C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD27BB429EF300E00852C0C /* Main.storyboard */; };
 		3FD27BB829EF301000852C0C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FD27BB729EF301000852C0C /* Assets.xcassets */; };
 		3FD27BBB29EF301000852C0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FD27BB929EF301000852C0C /* LaunchScreen.storyboard */; };
+		3FD51F4C29F0D03F0010D562 /* Office_Gif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3FD51F4B29F0D03F0010D562 /* Office_Gif.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		3FD27BB729EF301000852C0C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3FD27BBA29EF301000852C0C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3FD27BBC29EF301000852C0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FD51F4B29F0D03F0010D562 /* Office_Gif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Office_Gif.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				3FD27BAE29EF300E00852C0C /* AppDelegate.swift */,
 				3FD27BB029EF300E00852C0C /* SceneDelegate.swift */,
 				3FD27BB229EF300E00852C0C /* ViewController.swift */,
+				3FD51F4B29F0D03F0010D562 /* Office_Gif.gif */,
 				3FD27BB429EF300E00852C0C /* Main.storyboard */,
 				3FD27BB729EF301000852C0C /* Assets.xcassets */,
 				3FD27BB929EF301000852C0C /* LaunchScreen.storyboard */,
@@ -128,6 +131,7 @@
 				3FD27BBB29EF301000852C0C /* LaunchScreen.storyboard in Resources */,
 				3FD27BB829EF301000852C0C /* Assets.xcassets in Resources */,
 				3FD27BB629EF300E00852C0C /* Main.storyboard in Resources */,
+				3FD51F4C29F0D03F0010D562 /* Office_Gif.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

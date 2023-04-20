@@ -22,7 +22,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3uO-yf-d1u">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Office_Gif.gif" translatesAutoresizingMaskIntoConstraints="NO" id="3uO-yf-d1u">
                                 <rect key="frame" x="75" y="192" width="240" height="177"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -36,4 +36,7 @@
             <point key="canvasLocation" x="73.84615384615384" y="-2.1327014218009479"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Office_Gif.gif" width="200" height="167"/>
+    </resources>
 </document>

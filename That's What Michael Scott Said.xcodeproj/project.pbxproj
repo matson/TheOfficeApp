@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F4C65DE29F19CB900ACDC4F /* gifLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4C65DD29F19CB900ACDC4F /* gifLoader.swift */; };
 		3FD27BAF29EF300E00852C0C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD27BAE29EF300E00852C0C /* AppDelegate.swift */; };
 		3FD27BB129EF300E00852C0C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD27BB029EF300E00852C0C /* SceneDelegate.swift */; };
 		3FD27BB329EF300E00852C0C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FD27BB229EF300E00852C0C /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F4C65DD29F19CB900ACDC4F /* gifLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gifLoader.swift; sourceTree = "<group>"; };
 		3FD27BAB29EF300E00852C0C /* That's What Michael Scott Said.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "That's What Michael Scott Said.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FD27BAE29EF300E00852C0C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FD27BB029EF300E00852C0C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				3FD27BAE29EF300E00852C0C /* AppDelegate.swift */,
 				3FD27BB029EF300E00852C0C /* SceneDelegate.swift */,
 				3FD27BB229EF300E00852C0C /* ViewController.swift */,
+				3F4C65DD29F19CB900ACDC4F /* gifLoader.swift */,
 				3FD51F4B29F0D03F0010D562 /* Office_Gif.gif */,
 				3FD27BB429EF300E00852C0C /* Main.storyboard */,
 				3FD27BB729EF301000852C0C /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				3FD27BB329EF300E00852C0C /* ViewController.swift in Sources */,
 				3FD27BAF29EF300E00852C0C /* AppDelegate.swift in Sources */,
 				3FD27BB129EF300E00852C0C /* SceneDelegate.swift in Sources */,
+				3F4C65DE29F19CB900ACDC4F /* gifLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,20 +15,43 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="That's What Michael Scott Said!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EyT-IV-mnr">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="That's What Michael Scott Said!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EyT-IV-mnr">
                                 <rect key="frame" x="36" y="409" width="318" height="26"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="19"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Office_Gif.gif" translatesAutoresizingMaskIntoConstraints="NO" id="3uO-yf-d1u">
-                                <rect key="frame" x="75" y="192" width="240" height="177"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cJj-kI-CTk" userLabel="imageContainer">
+                                <rect key="frame" x="0.0" y="47" width="390" height="342"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Office_Gif.gif" translatesAutoresizingMaskIntoConstraints="NO" id="3uO-yf-d1u">
+                                        <rect key="frame" x="45" y="21" width="300" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="300" id="Ih8-VM-dXR"/>
+                                            <constraint firstAttribute="height" constant="300" id="Tuh-WC-BV6"/>
+                                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="250" id="fRu-Wr-jgc"/>
+                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="250" id="tJ1-YN-AZ6"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="3uO-yf-d1u" firstAttribute="centerX" secondItem="cJj-kI-CTk" secondAttribute="centerX" id="LiI-8T-PjF"/>
+                                    <constraint firstItem="3uO-yf-d1u" firstAttribute="centerY" secondItem="cJj-kI-CTk" secondAttribute="centerY" id="VRN-oP-FRV"/>
+                                    <constraint firstItem="3uO-yf-d1u" firstAttribute="centerY" secondItem="cJj-kI-CTk" secondAttribute="centerY" id="bqf-K7-skY"/>
+                                    <constraint firstItem="3uO-yf-d1u" firstAttribute="centerX" secondItem="cJj-kI-CTk" secondAttribute="centerX" id="c86-HK-Xht"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.99658409453401664" green="0.53497237201885095" blue="0.69543194810077313" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="EyT-IV-mnr" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1id-xU-8uI"/>
+                            <constraint firstItem="cJj-kI-CTk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="5DH-pr-34C"/>
+                            <constraint firstItem="cJj-kI-CTk" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="MuC-8j-RfF"/>
+                            <constraint firstItem="EyT-IV-mnr" firstAttribute="top" secondItem="cJj-kI-CTk" secondAttribute="bottom" constant="20" id="OSA-lh-7n0"/>
+                            <constraint firstItem="EyT-IV-mnr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="j5k-W9-XKV"/>
+                            <constraint firstItem="cJj-kI-CTk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tYD-qJ-uNt"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="imageView" destination="3uO-yf-d1u" id="lRM-5E-ot5"/>
